@@ -168,6 +168,27 @@ section{
 }
 
 
+.twitch {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.twitch iframe:first-child {
+    width: 900px;
+    height: 500px;
+    border: none;
+    border-radius: 15px;
+}
+
+.twitch iframe:last-child {
+    width: 340px;
+    height: 500px;
+    border: none;
+    border-radius: 15px;
+}
 .photo-gallery{
     background-color: black;
     margin-top: 50%;
